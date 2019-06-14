@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.utility.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Chrome Test(failed)">
+    <classes>
+      <class name="com.utility.TestScreenshot">
+        <methods>
+          <include name="takeScreenshot"/>
+          <include name="takeScreenshot1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.utility.TestScreenshot -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

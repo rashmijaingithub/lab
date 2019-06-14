@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21955" started-at="2019-06-11T09:26:54Z" finished-at="2019-06-11T09:27:16Z">
+    <groups>
+    </groups>
+    <test name="IETC" duration-ms="211" started-at="2019-06-11T09:26:54Z" finished-at="2019-06-11T09:26:54Z">
+      <class name="com.crossbrowser.VerifyTitle">
+        <test-method status="FAIL" signature="VerofyPageTitle(java.lang.String)[pri:0, instance:com.crossbrowser.VerifyTitle@3cb1ffe6]" name="VerofyPageTitle" duration-ms="191" started-at="2019-06-11T09:26:54Z" finished-at="2019-06-11T09:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.ie.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver. The latest version can be downloaded from http://selenium-release.storage.googleapis.com/index.html
+at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)
+at org.openqa.selenium.ie.InternetExplorerDriverService.access$000(InternetExplorerDriverService.java:33)
+at org.openqa.selenium.ie.InternetExplorerDriverService$Builder.findDefaultExecutable(InternetExplorerDriverService.java:169)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
+at org.openqa.selenium.ie.InternetExplorerDriver.setupService(InternetExplorerDriver.java:291)
+at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:213)
+at org.openqa.selenium.ie.InternetExplorerDriver.<init>(InternetExplorerDriver.java:152)
+at com.crossbrowser.VerifyTitle.VerofyPageTitle(VerifyTitle.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerofyPageTitle -->
+      </class> <!-- com.crossbrowser.VerifyTitle -->
+    </test> <!-- IETC -->
+    <test name="ChromeTC" duration-ms="9624" started-at="2019-06-11T09:26:54Z" finished-at="2019-06-11T09:27:03Z">
+      <class name="com.crossbrowser.VerifyTitle">
+        <test-method status="PASS" signature="VerofyPageTitle(java.lang.String)[pri:0, instance:com.crossbrowser.VerifyTitle@4b1c1ea0]" name="VerofyPageTitle" duration-ms="9606" started-at="2019-06-11T09:26:54Z" finished-at="2019-06-11T09:27:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerofyPageTitle -->
+      </class> <!-- com.crossbrowser.VerifyTitle -->
+    </test> <!-- ChromeTC -->
+    <test name="FirfoxTC" duration-ms="21955" started-at="2019-06-11T09:26:54Z" finished-at="2019-06-11T09:27:16Z">
+      <class name="com.crossbrowser.VerifyTitle">
+        <test-method status="PASS" signature="VerofyPageTitle(java.lang.String)[pri:0, instance:com.crossbrowser.VerifyTitle@4b553d26]" name="VerofyPageTitle" duration-ms="21937" started-at="2019-06-11T09:26:54Z" finished-at="2019-06-11T09:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerofyPageTitle -->
+      </class> <!-- com.crossbrowser.VerifyTitle -->
+    </test> <!-- FirfoxTC -->
+  </suite> <!-- Suite -->
+</testng-results>
