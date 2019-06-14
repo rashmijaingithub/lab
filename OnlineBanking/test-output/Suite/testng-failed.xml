@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.online.banking.testcases.AccountHomePageValidation">
+      <class name="com.online.banking.testcases.LoginPagevalidation">
         <methods>
+          <include name="validlogin"/>
           <include name="cleanUp"/>
-          <include name="bankinghomevalidation"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.online.banking.testcases.AccountHomePageValidation -->
+      </class> <!-- com.online.banking.testcases.LoginPagevalidation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -21,7 +21,7 @@ static Properties config=new Properties();
 	@BeforeMethod
 	public  WebDriver setup()
 	{
-		Properties config=new Properties();
+		config=new Properties();
 		
 	
 			try {
@@ -62,19 +62,7 @@ static Properties config=new Properties();
 		
 	}
 		
-	public String username()
-	{
-		String username=config.getProperty("username");
-		return username;
-		
-	}
-	
-	public String password()
-	{
-		String password=config.getProperty("password");
-		return password;
-		
-	}
+
 	public static String readProperty(String key){
 		return config.getProperty(key);
 	} 

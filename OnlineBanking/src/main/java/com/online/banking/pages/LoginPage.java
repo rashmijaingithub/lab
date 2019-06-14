@@ -1,6 +1,7 @@
 package com.online.banking.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
@@ -57,9 +58,10 @@ public static void clickSignIn()
 {
 	signIn.click();
 }
-public void loginSuccessValidation()
+public void loginSuccessValidation(WebDriver driver) throws InterruptedException
 {
-	Assert.assertTrue(getdriver().getTitle().contains("Altoro Mutual"));
+	Thread.sleep(4000);
+	Assert.assertTrue(driver.getTitle().contains("Altoro Mutual"));
 	
 }
 
@@ -70,12 +72,12 @@ public static void loginpageValidations() throws InterruptedException
 	Thread.sleep(4000);
 	
 		
-		 Assert.assertTrue(logo.isDisplayed());
+		 Assert.assertTrue(logo.isDisplayed(),"Logo not displaing");
 		
-		  Assert.assertTrue(ONLINEBANKINGTAB.isDisplayed());
-		  Assert.assertTrue(Persnaltab.isDisplayed());
-		  Assert.assertTrue(smallbusiness.isDisplayed());
-		  Assert.assertTrue(INSIDEALTO.isDisplayed());
+		  Assert.assertTrue(ONLINEBANKINGTAB.isDisplayed(), "ONLINEBanking tab displayed");
+		  Assert.assertTrue(Persnaltab.isDisplayed(), "Persnaltab is displayed");
+		  Assert.assertTrue(smallbusiness.isDisplayed(), "small business tab is displayed");
+		  Assert.assertTrue(INSIDEALTO.isDisplayed(), "INSIDEALTO tab is displayed");
 		 
 		 
 }
