@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7438" started-at="2019-06-12T10:23:36Z" finished-at="2019-06-12T10:23:43Z">
+  <suite name="Default suite" duration-ms="9271" started-at="2019-06-14T09:05:51Z" finished-at="2019-06-14T09:06:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7438" started-at="2019-06-12T10:23:36Z" finished-at="2019-06-12T10:23:43Z">
+    <test name="Default test" duration-ms="9271" started-at="2019-06-14T09:05:51Z" finished-at="2019-06-14T09:06:00Z">
       <class name="com.newtours.testcases.LogintoApplication">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.newtours.testcases.LogintoApplication@6a41eaa2]" name="setup" is-config="true" duration-ms="6418" started-at="2019-06-12T10:23:36Z" finished-at="2019-06-12T10:23:42Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.newtours.testcases.LogintoApplication@57baeedf]" name="setup" is-config="true" duration-ms="7864" started-at="2019-06-14T09:05:51Z" finished-at="2019-06-14T09:05:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.newtours.testcases.LogintoApplication@6a41eaa2]" name="Login" duration-ms="360" started-at="2019-06-12T10:23:42Z" finished-at="2019-06-12T10:23:42Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.newtours.testcases.LogintoApplication@57baeedf]" name="Login" duration-ms="672" started-at="2019-06-14T09:05:59Z" finished-at="2019-06-14T09:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.newtours.testcases.LogintoApplication@6a41eaa2]" name="cleanUp" is-config="true" duration-ms="635" started-at="2019-06-12T10:23:42Z" finished-at="2019-06-12T10:23:43Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.newtours.testcases.LogintoApplication@57baeedf]" name="cleanUp" is-config="true" duration-ms="708" started-at="2019-06-14T09:06:00Z" finished-at="2019-06-14T09:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
