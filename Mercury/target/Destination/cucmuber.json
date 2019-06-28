@@ -1,0 +1,345 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-26T09:30:24.047Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1152724,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login to Mercury Application",
+        "description": "",
+        "id": "login;login-to-mercury-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 50610,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10629892529,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user loads application",
+            "match": {
+              "location": "StepdefinationLoginExamples.user_loads_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7159880332,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter \"mercury\" and \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"mercury\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepdefinationLoginExamples.enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1133711345,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in",
+            "match": {
+              "location": "StepdefinationLoginExamples.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-26T09:30:43.001Z",
+        "before": [
+          {
+            "result": {
+              "duration": 104761,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login to Mercury Application",
+        "description": "",
+        "id": "login;login-to-mercury-application;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 190410,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8152974962,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user loads application",
+            "match": {
+              "location": "StepdefinationLoginExamples.user_loads_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6023803372,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter \"mercury2\" and \"mercury2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury2\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"mercury2\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepdefinationLoginExamples.enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3143510028,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in",
+            "match": {
+              "location": "StepdefinationLoginExamples.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-26T09:31:00.328Z",
+        "before": [
+          {
+            "result": {
+              "duration": 286676,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Invalid password to Mercury Application",
+        "description": "",
+        "id": "login;invalid-password-to-mercury-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 44594,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12149724897,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user loads application",
+            "match": {
+              "location": "StepdefinationLoginExamples.user_loads_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4391875085,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "enter \"mercury\" and \"sdfdfd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"sdfdfd\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepdefinationLoginExamples.enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 838798123,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should be logged in",
+            "match": {
+              "location": "StepdefinationLoginExamples.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-26T09:31:17.754Z",
+        "before": [
+          {
+            "result": {
+              "duration": 104053,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Click on the line",
+        "description": "",
+        "id": "login;click-on-the-line",
+        "after": [
+          {
+            "result": {
+              "duration": 39285,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7121610755,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user loads application",
+            "match": {
+              "location": "StepdefinationLoginExamples.user_loads_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "user click on Link",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:/C:/WorkSpace/Mercury/src/test/resources/Features/Login.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

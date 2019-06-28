@@ -1,0 +1,4 @@
+com\banking\pages\HomePage.class
+com\banking\pages\TransferFunds.class
+com\banking\helper\BaseClass.class
+com\banking\pages\LoginPage.class

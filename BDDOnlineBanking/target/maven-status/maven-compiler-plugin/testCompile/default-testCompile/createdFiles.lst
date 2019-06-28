@@ -1,0 +1,4 @@
+steps\FundTransferPageSteps.class
+runner\TestRunner.class
+steps\HomePageSteps.class
+steps\Loginsteps.class

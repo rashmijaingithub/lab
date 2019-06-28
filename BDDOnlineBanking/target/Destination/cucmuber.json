@@ -1,0 +1,447 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Application loads and login with Valid username and password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5468614924,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user loadsApplication",
+            "match": {
+              "location": "Loginsteps.user_loadsApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4974633507,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter valid \"jsmith\" and \"Demo1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jsmith\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Demo1234\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Loginsteps.user_enter_valid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-28T07:44:01.242Z",
+        "line": 23,
+        "name": "TC_001_Login Page:Login Validations for valid and invalid users",
+        "description": "",
+        "id": "online-banking;tc-001-login-page:login-validations-for-valid-and-invalid-users;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 957986182,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginsteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 212352,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 151124,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FundTransferPageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2516858792,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Logoff from the System",
+            "match": {
+              "location": "Loginsteps.logoff_from_the_System()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4809619115,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter valid \"invalid\" and \"invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"invalid\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Loginsteps.user_enter_valid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87051526,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate the message \"Invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.validate_the_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Application loads and login with Valid username and password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4615799900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user loadsApplication",
+            "match": {
+              "location": "Loginsteps.user_loadsApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5008618301,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter valid \"jsmith\" and \"Demo1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jsmith\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Demo1234\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Loginsteps.user_enter_valid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-28T07:44:20.094Z",
+        "line": 24,
+        "name": "TC_001_Login Page:Login Validations for valid and invalid users",
+        "description": "",
+        "id": "online-banking;tc-001-login-page:login-validations-for-valid-and-invalid-users;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 920781780,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginsteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 224031,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 156786,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FundTransferPageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2512864807,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Logoff from the System",
+            "match": {
+              "location": "Loginsteps.logoff_from_the_System()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4822286258,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter valid \"jsmith\" and \"Demo1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jsmith\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Demo1234\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Loginsteps.user_enter_valid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59578503,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate the message \"Valid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Valid\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Loginsteps.validate_the_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Application loads and login with Valid username and password",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4529088844,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user loadsApplication",
+            "match": {
+              "location": "Loginsteps.user_loadsApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4879826183,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter valid \"jsmith\" and \"Demo1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jsmith\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Demo1234\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Loginsteps.user_enter_valid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-28T07:44:38.040Z",
+        "line": 44,
+        "name": "TTC_003_Transfer Funds Page: Transfer fund",
+        "description": "",
+        "id": "online-banking;ttc-003-transfer-funds-page:-transfer-fund;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 899430508,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginsteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 180145,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 13449,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FundTransferPageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 572192027,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click on Transfer Funds link in left hand navigation section",
+            "match": {
+              "location": "FundTransferPageSteps.click_on_Transfer_Funds_link_in_left_hand_navigation_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4039316241,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify that Transfer Funds page is displayed",
+            "match": {
+              "location": "FundTransferPageSteps.verify_that_Transfer_Funds_page_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10354848117,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Select From Account, To Account and 100 to Transfer and click on Transfer Money button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 36
+                }
+              ],
+              "location": "FundTransferPageSteps.select_From_Account_To_Account_and_to_Transfer_and_click_on_Transfer_Money_button(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30058054,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Verify that a message is displayed with correct amount and from/to account details",
+            "match": {
+              "location": "FundTransferPageSteps.verify_that_a_message_is_displayed_with_correct_amount_and_from_to_account_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2854650099,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Logoff from the System",
+            "match": {
+              "location": "Loginsteps.logoff_from_the_System()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Online Banking",
+    "description": "",
+    "id": "online-banking",
+    "keyword": "Feature",
+    "uri": "file:/C:/WorkSpace/BDDOnlineBanking/src/test/resources/Features/OnlineBanking.feature",
+    "tags": []
+  }
+]

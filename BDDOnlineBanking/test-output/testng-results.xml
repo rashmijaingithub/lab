@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-23T12:35:55Z" name="Default suite" finished-at="2019-06-23T12:36:32Z" duration-ms="36986">
+    <groups>
+    </groups>
+    <test started-at="2019-06-23T12:35:55Z" name="Default test" finished-at="2019-06-23T12:36:32Z" duration-ms="36986">
+      <class name="com.banking.testcases.LoginPagevalidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.banking.testcases.LoginPagevalidation@1460a8c0]" started-at="2019-06-23T12:35:55Z" name="setup" finished-at="2019-06-23T12:36:01Z" duration-ms="6233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validlogin()[pri:0, instance:com.banking.testcases.LoginPagevalidation@1460a8c0]" started-at="2019-06-23T12:36:01Z" name="validlogin" description="valid login" finished-at="2019-06-23T12:36:19Z" duration-ms="17806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.banking.testcases.LoginPagevalidation@1460a8c0]" started-at="2019-06-23T12:36:19Z" name="cleanUp" finished-at="2019-06-23T12:36:20Z" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.banking.testcases.LoginPagevalidation@1460a8c0]" started-at="2019-06-23T12:36:20Z" name="setup" finished-at="2019-06-23T12:36:26Z" duration-ms="6057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin()[pri:1, instance:com.banking.testcases.LoginPagevalidation@1460a8c0]" started-at="2019-06-23T12:36:26Z" name="invalidLogin" description="invalid login" finished-at="2019-06-23T12:36:31Z" duration-ms="5466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.banking.testcases.LoginPagevalidation@1460a8c0]" started-at="2019-06-23T12:36:31Z" name="cleanUp" finished-at="2019-06-23T12:36:32Z" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.banking.testcases.LoginPagevalidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

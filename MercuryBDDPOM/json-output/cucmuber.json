@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-24T08:35:44.549Z",
+        "line": 3,
+        "name": "Login to Mercury Application",
+        "description": "",
+        "id": "mercury-application-test;login-to-mercury-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5849812016,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user loads application",
+            "match": {
+              "location": "LoginPageSteps.user_loads_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4951886021,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginPageSteps.enter_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4023378526,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login to the application",
+            "match": {
+              "location": "LoginPageSteps.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 958379033,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clases the Application",
+            "match": {
+              "location": "LoginPageSteps.user_clases_the_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mercury Application test",
+    "description": "",
+    "id": "mercury-application-test",
+    "keyword": "Feature",
+    "uri": "file:/C:/WorkSpace/MercuryBDDPOM/src/test/resources/Features/test.feature",
+    "tags": []
+  }
+]

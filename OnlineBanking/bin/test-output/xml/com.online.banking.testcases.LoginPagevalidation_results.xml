@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="23.897">
+  <properties />
+  
+  
+            <testcase name="validlogin" time="18.275" classname="com.online.banking.testcases.LoginPagevalidation" />
+                <testcase name="invalidLogin" time="5.622" classname="com.online.banking.testcases.LoginPagevalidation" />
+      
+</testsuite>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68634" started-at="2019-06-14T10:03:25Z" finished-at="2019-06-14T10:04:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68634" started-at="2019-06-14T10:03:25Z" finished-at="2019-06-14T10:04:33Z">
+      <class name="com.online.banking.testcases.LoginPagevalidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.online.banking.testcases.LoginPagevalidation@6c49835d]" name="setup" is-config="true" duration-ms="8393" started-at="2019-06-14T10:03:54Z" finished-at="2019-06-14T10:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validlogin()[pri:0, instance:com.online.banking.testcases.LoginPagevalidation@6c49835d]" name="validlogin" duration-ms="18275" started-at="2019-06-14T10:04:03Z" description="valid login" finished-at="2019-06-14T10:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.online.banking.testcases.LoginPagevalidation@6c49835d]" name="cleanUp" is-config="true" duration-ms="688" started-at="2019-06-14T10:04:21Z" finished-at="2019-06-14T10:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.online.banking.testcases.LoginPagevalidation@6c49835d]" name="setup" is-config="true" duration-ms="5337" started-at="2019-06-14T10:04:22Z" finished-at="2019-06-14T10:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidLogin()[pri:1, instance:com.online.banking.testcases.LoginPagevalidation@6c49835d]" name="invalidLogin" duration-ms="5622" started-at="2019-06-14T10:04:27Z" description="invalid login" finished-at="2019-06-14T10:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.online.banking.testcases.LoginPagevalidation@6c49835d]" name="cleanUp" is-config="true" duration-ms="703" started-at="2019-06-14T10:04:32Z" finished-at="2019-06-14T10:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.online.banking.testcases.LoginPagevalidation -->
+      <class name="com.online.banking.testcases.AccountHomePageValidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.online.banking.testcases.AccountHomePageValidation@5a8806ef]" name="setup" is-config="true" duration-ms="5622" started-at="2019-06-14T10:03:25Z" finished-at="2019-06-14T10:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bankinghomevalidation()[pri:0, instance:com.online.banking.testcases.AccountHomePageValidation@5a8806ef]" name="bankinghomevalidation" duration-ms="23175" started-at="2019-06-14T10:03:30Z" finished-at="2019-06-14T10:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankinghomevalidation -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.online.banking.testcases.AccountHomePageValidation@5a8806ef]" name="cleanUp" is-config="true" duration-ms="788" started-at="2019-06-14T10:03:53Z" finished-at="2019-06-14T10:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.online.banking.testcases.AccountHomePageValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
