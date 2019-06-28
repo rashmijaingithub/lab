@@ -18,6 +18,7 @@ public class Homepage {
 		  
 		  
 		  driver.findElement(By.xpath("//input[@name='login']")).click();
+		  System.out.println("wsadsd");
 	}
 	public static void Validation()
 	{
