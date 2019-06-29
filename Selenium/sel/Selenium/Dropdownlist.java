@@ -11,6 +11,7 @@ public class Dropdownlist {
 		
 		WebDriver driver=new FirefoxDriver();
 		
+	
 		driver.get("http://toolsqa.wpengine.com/automation-practice-form/");
 		
 		Select sel1=new Select(driver.findElement(By.id("continents")));

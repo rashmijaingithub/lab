@@ -6,6 +6,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
@@ -18,7 +19,10 @@ public class Dropdown_FB {
 	public void dropdown() throws InterruptedException
 
 	{
-		WebDriver driver=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\WorkSpace\\Drivers\\chromedriver.exe");
+	
+		WebDriver driver=new ChromeDriver();
+		
 		driver.get("https://www.facebook.com");
 		
 	WebElement month_dd=driver.findElement(By.id("month"));
@@ -31,21 +35,29 @@ public class Dropdown_FB {
 	sel1.selectByValue("6");
 	Thread.sleep(3000);
 	//sel1.deselectByIndex(6);
+    sel1.selectByVisibleText("Oct");
 	WebElement selected_value1= sel1.getFirstSelectedOption();
 	
 	System.out.println("Selected value after selecting  " +selected_value1.getText());
 	
 	List<WebElement>month_list=sel1.getOptions();
+	
 	int total_month=month_list.size();
 	System.out.println("total month " +total_month);
 	
 	for(WebElement ele:month_list)
 	{
 		String month_name=ele.getText();
-		System.out.println("Months are==== " +month_name);
-	}
-	
+		//System.out.println("Months are==== " +month_name);
+		if(month_name.equalsIgnoreCase("Aug")|month_name.equalsIgnoreCase("Oct")| month_name.equalsIgnoreCase("ddd") )
+		{
+			System.out.println("aug/Oct exists");
+		}
 		
 	}
+	driver.quit();
+		
+	}
+	
 
 }

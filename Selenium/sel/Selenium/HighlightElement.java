@@ -9,7 +9,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class HighlightElement {
 	public static void main(String arg[])
 	{
-	WebDriver driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\WorkSpace\\Drivers\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+	
+	
 	driver.get("http://totalwine.com");
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);

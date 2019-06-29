@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features = "C:\\WorkSpace\\BDDOnlineBanking\\src\\test\\resources\\Features\\OnlineBanking.feature"
+		features = "C:\\D Drive\\GitRepository\\lab\\BDDOnlineBanking\\src\\test\\resources\\Features\\OnlineBanking.feature"
 		,glue= {"steps"}
 		,dryRun=false
 		,monochrome=true

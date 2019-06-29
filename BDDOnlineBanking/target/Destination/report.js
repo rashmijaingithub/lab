@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:/C:/WorkSpace/BDDOnlineBanking/src/test/resources/Features/OnlineBanking.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:/C:/D%20Drive/GitRepository/lab/BDDOnlineBanking/src/test/resources/Features/OnlineBanking.feature");
 formatter.feature({
   "name": "Online Banking",
   "description": "",

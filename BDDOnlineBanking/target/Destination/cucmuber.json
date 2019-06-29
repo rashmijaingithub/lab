@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5468614924,
+              "duration": 6562681849,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 4974633507,
+              "duration": 4905405735,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-06-28T07:44:01.242Z",
+        "start_timestamp": "2019-06-29T16:47:01.389Z",
         "line": 23,
         "name": "TC_001_Login Page:Login Validations for valid and invalid users",
         "description": "",
@@ -54,16 +54,7 @@
         "after": [
           {
             "result": {
-              "duration": 957986182,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Loginsteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 212352,
+              "duration": 1022220146,
               "status": "passed"
             },
             "match": {
@@ -72,11 +63,20 @@
           },
           {
             "result": {
-              "duration": 151124,
+              "duration": 194302,
               "status": "passed"
             },
             "match": {
               "location": "FundTransferPageSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 19466,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginsteps.tearDown()"
             }
           }
         ],
@@ -85,7 +85,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2516858792,
+              "duration": 2377146125,
               "status": "passed"
             },
             "line": 18,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 4809619115,
+              "duration": 4826321297,
               "status": "passed"
             },
             "line": 19,
@@ -119,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 87051526,
+              "duration": 35149898,
               "status": "passed"
             },
             "line": 20,
@@ -151,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4615799900,
+              "duration": 4381336889,
               "status": "passed"
             },
             "line": 4,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 5008618301,
+              "duration": 4911551552,
               "status": "passed"
             },
             "line": 5,
@@ -186,7 +186,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-06-28T07:44:20.094Z",
+        "start_timestamp": "2019-06-29T16:47:21.153Z",
         "line": 24,
         "name": "TC_001_Login Page:Login Validations for valid and invalid users",
         "description": "",
@@ -194,16 +194,7 @@
         "after": [
           {
             "result": {
-              "duration": 920781780,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Loginsteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 224031,
+              "duration": 848326969,
               "status": "passed"
             },
             "match": {
@@ -212,11 +203,20 @@
           },
           {
             "result": {
-              "duration": 156786,
+              "duration": 226509,
               "status": "passed"
             },
             "match": {
               "location": "FundTransferPageSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31853,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginsteps.tearDown()"
             }
           }
         ],
@@ -225,7 +225,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2512864807,
+              "duration": 2410096766,
               "status": "passed"
             },
             "line": 18,
@@ -237,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 4822286258,
+              "duration": 4804021519,
               "status": "passed"
             },
             "line": 19,
@@ -259,7 +259,7 @@
           },
           {
             "result": {
-              "duration": 59578503,
+              "duration": 35878264,
               "status": "passed"
             },
             "line": 20,
@@ -291,7 +291,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4529088844,
+              "duration": 4955657744,
               "status": "passed"
             },
             "line": 4,
@@ -303,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 4879826183,
+              "duration": 4861672575,
               "status": "passed"
             },
             "line": 5,
@@ -326,7 +326,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-06-28T07:44:38.040Z",
+        "start_timestamp": "2019-06-29T16:47:38.550Z",
         "line": 44,
         "name": "TTC_003_Transfer Funds Page: Transfer fund",
         "description": "",
@@ -334,16 +334,7 @@
         "after": [
           {
             "result": {
-              "duration": 899430508,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Loginsteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 180145,
+              "duration": 931424503,
               "status": "passed"
             },
             "match": {
@@ -352,11 +343,20 @@
           },
           {
             "result": {
-              "duration": 13449,
+              "duration": 34684,
               "status": "passed"
             },
             "match": {
               "location": "FundTransferPageSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 18757,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Loginsteps.tearDown()"
             }
           }
         ],
@@ -365,7 +365,7 @@
         "steps": [
           {
             "result": {
-              "duration": 572192027,
+              "duration": 360885281,
               "status": "passed"
             },
             "line": 37,
@@ -377,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 4039316241,
+              "duration": 4037752270,
               "status": "passed"
             },
             "line": 38,
@@ -389,7 +389,7 @@
           },
           {
             "result": {
-              "duration": 10354848117,
+              "duration": 10053098231,
               "status": "passed"
             },
             "line": 39,
@@ -407,7 +407,7 @@
           },
           {
             "result": {
-              "duration": 30058054,
+              "duration": 24531950,
               "status": "passed"
             },
             "line": 40,
@@ -419,7 +419,7 @@
           },
           {
             "result": {
-              "duration": 2854650099,
+              "duration": 2566347041,
               "status": "passed"
             },
             "line": 41,
@@ -441,7 +441,7 @@
     "description": "",
     "id": "online-banking",
     "keyword": "Feature",
-    "uri": "file:/C:/WorkSpace/BDDOnlineBanking/src/test/resources/Features/OnlineBanking.feature",
+    "uri": "file:/C:/D%20Drive/GitRepository/lab/BDDOnlineBanking/src/test/resources/Features/OnlineBanking.feature",
     "tags": []
   }
 ]
